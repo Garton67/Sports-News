@@ -1,0 +1,262 @@
+.navigation {
+width: 100%;
+height: 4vh;
+}
+
+.page-content{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1567220702454-8e66a99ea5c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100vw 100vh; 
+}
+
+/*Scoreboard Container*/
+#scoreboard-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 98%;
+    height: 88vh;
+    border-radius: 1.5%;
+    overflow: scroll;
+    background-color: rgba(237, 238, 240, .8);
+    color: #303030;
+}
+
+#scorebox-div{
+    align-items: center;
+}
+
+#scoreboard-container h4{
+    width: 100%;
+    background-color: #343a40!important;
+    text-align: left;
+    font-size: xx-large;
+    padding: 1%;
+    border-top: 1%;
+    border-bottom: ridge;
+    border-radius: 1%;
+}
+
+#teams-container h4{
+    width: 100%;
+    background-color: #343a40!important;
+    text-align: left;
+    font-size: xx-large;
+    padding: 1%;
+    border-top: 1%;
+    border-bottom: ridge;
+    border-radius: 1%;
+}
+
+#news-container h4{
+    width: 100%;
+    background-color: #343a40!important;
+    text-align: left;
+    font-size: xx-large;
+    padding: 1%;
+    border-top: 1%;
+    border-bottom: ridge;
+    border-radius: 1%;
+}
+
+#home-container h4{
+    width: 100%;
+    background-color: #343a40!important;
+    text-align: left;
+    font-size: xx-large;
+    padding: 1%;
+    border-top: 1%;
+    border-bottom: ridge;
+    border-radius: 1%;
+}
+
+h4 {
+    color: white !important;
+}
+
+#scoreInfoUL{
+    padding: 1%;
+    padding-left: 2%;
+}
+
+#scoreInfoUL ul{
+    list-style-type: none;
+}
+
+#scoreInfoUL div{
+    list-style-type: none;
+    border-bottom: ridge;
+    border-radius: 1%;
+}
+
+#scoreInfoUL li{
+    list-style-type: none;
+    margin: 1%;
+}
+
+#scoreInfoUL label{
+    width: 100%;
+}
+.nav-link {
+    color: rgb(188, 188, 189) !important;
+}
+.nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+}
+.btn {
+    background-color: rgb(49, 13, 255);
+    color: white;
+}
+.btn-outline-success {
+    color: white;
+}
+.btn-primary{
+    background-color: #68889E;
+    }
+.dropdown-menu{
+background-color: #f0f0f0;
+border: 1px solid #000000;
+}
+.dropdown-toggle:hover {
+    background-color: rgb(49, 13, 255);
+}
+.navbar-brand {
+    font-size: 36px;
+}
+
+/**********************Teams Container*************************/
+#teams-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 98%;
+    height: 88vh;
+    border-radius: 1.5%;
+    overflow: auto;
+    background-color: rgba(237, 238, 240, .8);
+    color: #303030;
+}
+
+#players-container{
+    display: flex;
+    margin: 1%;
+    width: 98%;
+    height: 88vh;
+    border-radius: 1.5%;
+    overflow: auto;
+    background-color: rgba(237, 238, 240, .8);
+    color: #303030;
+}
+
+#playerList{
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    column-count: 2;
+    top: 50%;
+    left: 50%;
+    padding-left: 16px;
+}
+
+#news-container {
+    display: flex;
+    overflow: auto;
+    width: 98%;
+    height: 88vh;
+    background-color: rgba(237, 238, 240, .8);
+    text-align: center;
+    font-size: x-large;
+    list-style-type: none;
+    border-style: solid;
+}
+@media only screen and (min-width: 400px) and (max-width: 1180px) {
+    div.ball {
+      display: none;
+    }
+}
+
+#home-container{
+    display: flex;
+    margin: 1%;
+    width: 98%;
+    height: 88vh;
+    border-radius: 1.5%;
+    overflow: auto;
+    background-color: rgba(237, 238, 240, .8);
+    color: #303030;
+}
+
+#home-div{
+    width: 100%;
+}
+#topNewsUL{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#topNewsUL img{
+    height: 300px;
+}
+
+.player {
+    background-color: brown;
+    color: cornsilk;
+}
+.playername {
+    display: flex;
+    flex-direction: column;
+    color: cornsilk;
+    font-size: 12px;
+}
+.playerheading {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+.playerfooter {
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: cornsilk;
+    padding: 20px;
+    margin-right: 20px;
+}
+.playerstat {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.img {
+    width: 300px;
+    padding-top: 30px;
+    align-content: center;
+}
+
+#sportsNewsUL img {
+    height: 300px;
+}
+
+
+#sportsTeamsUL{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sportsNewsUL {
+    list-style-type: none;
+}
+
+#page-container{
+    margin-top: 48px;
+}

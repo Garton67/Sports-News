@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Sport News</a>
+         <div class=ball> 
+        <img class="bBall" src="https://img.icons8.com/emoji/48/000000/baseball-emoji.png"/>
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="homePage" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NFL
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/National_Football_League" target="_blank">About</a>
+                <a class="dropdown-item" id="nflNewsButton" value="NFL News" href="#">News</a>
+                <a class="dropdown-item" id="gamesNFL" value="NFL Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsNFL" value="NFL Teams" href="#">Teams</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NBA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/National_Basketball_Association" target="_blank">About</a>
+                <a class="dropdown-item" id="nbaNewsButton" value="NBA News" href="#">News</a>
+                <a class="dropdown-item" id="gamesNBA" value="NBA Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsNBA" value="NBA Teams" href="#">Teams</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MLB
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Major_League_Baseball" target="_blank">About</a>
+                <a class="dropdown-item" id="mlbNewsButton" value="MLB News" href="#">News</a>
+                <a class="dropdown-item" id="gamesMLB" value="MLB Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsMLB" value="MLB Teams" href="#">Teams</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EPL
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Premier_League" target="_blank">About</a>
+                <a class="dropdown-item" id="eplNewsButton" value="EPL News" href="#">News</a>
+                <a class="dropdown-item" id="gamesEPL" value="EPL Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsEPL" value="EPL Teams" href="#">Teams</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" id="gamesMLS" href="#" value="MLS Games">MLS Games</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NHL
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/National_Hockey_League" target="_blank">About</a>
+                <a class="dropdown-item" id="nhlNewsButton" value="NHL News" href="#">News</a>
+                <a class="dropdown-item" id="gamesNHL" value="NHL Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsNHL" value="NHL Teams" href="#">Teams</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                WNBA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Women%27s_National_Basketball_Association" target="_blank">About</a>
+                <a class="dropdown-item" id="wnbaNewsButton" value="WNBA News"href="#">News</a>
+                <a class="dropdown-item" id="gamesWNBA" value="WNBA Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsWNBA" value="WNBA Teams" href="#">Teams</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NCAAF
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/College_football" target="_blank">About</a>
+                <a class="dropdown-item" id="collegeFootballNewsButton" value="NCAAF News" href="#">News</a>
+                <a class="dropdown-item" id="gamesNCAAF" value="NCAAF Games" href="#">Games</a>
+                <a class="dropdown-item" id="teamsNCAAF"  value="NCAAF Teams" href="#">Teams</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NCAA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://en.wikipedia.org/wiki/National_Collegiate_Athletic_Association" target="_blank">About</a>
+                <a class="dropdown-item" id="gamesBBallMens" value="NCAABB (M)" href="#">Basketball (M)</a>
+                <a class="dropdown-item" id="gamesBBallWomens" value="NCAABB (W)" href="#">Basketball (W)</a>
+                <a class="dropdown-item" id="gamesNCAABaseball" value="NCAA Baseball" href="#">Baseball</a>
+              </div>
+            </li>
+          </ul>
+          <!--<form class="form-inline my-2 my-lg-0">-->
+            <input class="form-control mr-sm-2" id="input" type="search" placeholder="Search Players" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="submit" type="submit">Submit</button>
+          <!--</form>-->
+        </div>
+      </nav>
+      </section>
+      <section class="page-content">
+        <div id="page-container">
+          <!--Div Container to display top News across all sports-->
+          <div id="home-container">
+            <div id="home-div">
+              <h4>Top Sports News</h4>
+              <ul id="topNewsUL">
+    
+              </ul>
+            </div>
+          </div>
+          <!--Div Container to display the NBA Players-->
+          <div id="players-container">
+            <div id="player-box">
+              <ul id="playerList">
+    
+              </ul>
+            </div>
+          </div>
+          <!--Div Container to display the Game Scoreboard-->
+          <div id="scoreboard-container">
+            <div id="scorebox-div">
+              <h4 id="scoresName"></h4>
+                <ul id="scoreInfoUL">
+                </ul>
+            </div>
+          </div>
+        <!--------------------->
+        <!--Div Container to display all 32 NFL Teams-------->
+        <div id="teams-container">
+          <div id="teams-div">
+            <h4 id="teamsName"></h4>
+            <ul id="sportsTeamsUL">
+            
+            </ul>
+          </div>
+        </div>
+        <!--------------------------------------------------->
+        <!-- container for news -->
+        <div id="news-container">
+          <div id="news-div">
+            <h4 id="newsName"></h4>
+            <ul id=sportsNewsUL>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--<script src="player.js"></script>-->
+      <script src="app.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
